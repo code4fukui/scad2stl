@@ -4,16 +4,17 @@ scad2stl is a command line program to convert from OpenSCAD file (*.scad) to STL
 
 ## install
 
-install [Deno](https://deno.com/)
+- git clone
+- install [Deno](https://deno.com/)
 
 ```sh
-deno install --global -A scad2stl.js
+deno install --global -A --name=scad2stl scad2stl.js
 ```
 
 ## uninstall 
 
 ```sh
-deno uninstall --global scad2stl.js
+deno uninstall --global scad2stl
 ```
 
 ## openscad.js
